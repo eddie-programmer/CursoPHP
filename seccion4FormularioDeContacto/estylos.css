@@ -1,0 +1,106 @@
+* {
+	padding: 0; /*Elimina espacios*/
+	margin: 0;
+	-webkit-box-sizing: border-box; /**/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body { /*Fondo de pantalla*/
+	/* background:#F2F2F2; */
+    background-color: rgb(228, 228, 228);
+	font-size: 16px;
+	font-family:"Rubik", Arial, sans-serif, helvetica;
+}
+
+.wrap { /**/
+	width: 100%; /*Ancho sin que rebase limites de max-width*/
+	max-width: 500px; /*ancho de nuestro wrap*/
+	margin: 6% auto; /* posiciona nuestro wrap en medio del navegador */
+    
+}
+
+form {
+	width: 100%;
+	margin: 20px 0;
+	padding: 20px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 3px grey;
+	border-top:10px solid #122699;
+    border-radius: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+	border: 1px solid #122699;
+	border-radius: 10px;
+	padding: 15px;
+	width: 100%;
+	display: block;
+	margin-bottom:20px;
+	font-family:"Rubik", Arial, sans-serif, helvetica;
+	font-size: 1em;
+	color:#21232b;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus{
+	border: 2px solid #3F51B5;
+	padding: 15px;
+}
+
+form textarea { /*Dimensiones del area para ingresar texto*/
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 200px;
+	min-height: 150px;
+}
+
+form label {
+	color:#E1E9FA;
+	font-family:"Rubik", Arial, sans-serif, helvetica;
+	display: block;
+}
+
+.alert {
+	padding: 1em;
+	color:rgb(255, 255, 255);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.alert.error {
+	background: #F2DEDE;
+	border:1px solid #9c2a2a;
+	color: #9c2a2a;
+}
+.alert.success {
+	background: #66da66;
+	border:1px solid #005c08;
+	color: #ffffff;
+}
+
+form-control
+
+.boton,
+form input[type="submit"]{
+	padding: 15px;
+	background: #ec5122;
+	color:#ffffff;
+	font-size: 1em;
+	font-family:"Rubik", Arial, sans-serif, helvetica;
+	border-radius: 10px; /*Borde de nuestro boton, ovalado etc*/
+	border:none;
+	float: right;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+	background: #df4314;
+}
