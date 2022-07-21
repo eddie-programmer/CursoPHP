@@ -3,10 +3,10 @@
 $eddie = ['nombre' => 'Eddie Alexander', 'apellidos' => 'Vázquez Bravo', 'pais' => 'México', 'telefono' => '55 2244 9188'];
 //$eddie ['telefono']='55345678987654345'; //Modificacion del array (telefono)
 
-echo 'Hola, mi nombre es: '.$eddie['nombre'];    //Mandamos a llamr al array con el nombre con el que se le asocia
+echo 'Hola, mi nombre es: '.$eddie['nombre'];    //Mandamos a llamar al array con el nombre con el que se le asocia
 echo ' '.$eddie['apellidos']. '</br>';
 echo 'Mi pais es: '.$eddie['pais']. '</br>';
-echo 'Mi número telefonico es el: '.$eddie['tele|fono'].'</br></br>';
+echo 'Mi número telefonico es el: '.$eddie['telefono'].'</br></br>';
 
 //echo 'Hola mi nombre es ' .$eddie['nombre']. '</br>';
 
@@ -26,7 +26,7 @@ $test=array(
                              ,'rod','luis')),
       array('rh',       array('dani','sol',2.2)));
 
-echo $test[1][1][2];
+echo $test[0][1][1][2];
 //var_dump ($test);
 
 ?>
