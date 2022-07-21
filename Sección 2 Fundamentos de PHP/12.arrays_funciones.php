@@ -1,7 +1,7 @@
 <?php 
 $meses = array ('Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
 
-$datos=array( 'Nombre'=>'Eddie',
+$datos=array(   'Nombre'=>'Eddie',
                 'Apellido Paterno'=>'Vázquez',
                 'Apellido Materno'=>'Bravo',
                 'Sexo'=>'Masculinote',
@@ -28,8 +28,8 @@ echo $meses[$ultimo_mes];
                 echo '<li>' .$mes. '</li>'; //concatenamos lo que se va a mostrar con la etiqueta '</li>' de lista
                 }
 
-                foreach($datos as $row => $dateo){
-                    echo $row.': '. $dateo.'</br>';
+                foreach($datos as $row => $datos){
+                    echo $row.': '. $datos.'</br>';
                 }
             ?>
         </ul>
