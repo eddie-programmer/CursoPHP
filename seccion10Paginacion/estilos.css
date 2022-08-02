@@ -1,0 +1,86 @@
+/*Paleta de colores
+.color1 {color: #120907;}
+.color2 {color: #181f35;}
+.color3 {color: #4a5a89;}
+.color4 {color: #849ce5;}
+.color5 {color: #b9dbed;}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eaebec;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1{
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    color: #ce7f08;
+    font-weight: normal;
+}
+
+.contenedor .articulos{
+    margin-bottom: 20px;
+}
+
+.contenedor .articulos ul{
+    list-style: none;
+}
+
+.contenedor .articulos ul li{
+    background-color:  #eaebec;
+    color: #424242;
+    padding: 15px 10px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.paginacion ul{
+    list-style: none;
+}
+
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.paginacion ul .active a{ /*Tener el boton activo del color que indiquemos*/
+    background-color: #ce7f08;
+}
+
+.paginacion ul .disabled{
+    background: #c8c8c8;
+    display: inline-block;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    cursor: not-allowed; /*Para que no puede retroceder con el boton*/
+    color: #fff;
+    text-decoration: none;
+}
+
+.paginacion ul li a{
+    display: inline-block;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    background-color: #424242;
+    color: #fff;
+    text-decoration: none;
+}
+
+.paginacion ul li a:hover{/*Tener el boton inactivo del color que indiquemos*/
+    text-decoration: none;
+    background-color: #3299bb;
+}
